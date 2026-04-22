@@ -5,9 +5,10 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return """
-    <h1>Student Profile App</h>
-    <p>Name: Abhinay Anand</p>
-    <p>Class: CS-6C</p>
+    <h1>Student Profile app </h1>
+        <p>Name: Abhinay Anand</p>
+        <p>Class: CS-6C</p>
+        <p>Section: C</p>
 """
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
